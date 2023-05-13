@@ -20,18 +20,12 @@
 		<animation frameSize="1000" animationId="Гром М2" />
 		<animation frameSize="1000" animationId="Гром М3" />
 	</thunder>
-	<isis>
-		<effect>
-			<id>isida0</id>
-			<idleSpark frameSize="150" animationId="heal" />
-			<healStart frameSize="150" animationId="heal" />
-			<healEnd frameSize="150" animationId="heal" />
-			<healShaft frameSize="200" animationId="heal_shaft" />
-			<damageStart frameSize="150" animationId="damage" />
-			<damageEnd frameSize="150" animationId="damage" />
-			<damageShaft frameSize="200" animationId="damage_shaft" />
-		</effect>
-	</isis>
+	<isida>
+		<animation animationId="Изида М0" fps="30" frameHeight="128" frameWidth="128" numFrames="10" />
+		<animation animationId="Изида М1" fps="30" frameHeight="128" frameWidth="128" numFrames="10" />
+		<animation animationId="Изида М2" fps="30" frameHeight="128" frameWidth="128" numFrames="10" />
+		<animation animationId="Изида М3" fps="30" frameHeight="128" frameWidth="128" numFrames="10" />
+	</isida>
 	<flamethrower>
 		<animation animationId="Огнемёт М0" />
 		<animation animationId="Огнемёт М1" />
@@ -60,11 +54,11 @@
 		<animation animationId="Рикошет М3" />
 	</ricochet>
 	<railgun>
-		<effect id="Рельса М0" />
-		<effect id="Рельса М1" />
-		<effect id="Рельса М2" />
-		<effect id="Рельса М3" />
-		<effect id="Рельса XT" />
+		<animation animationId="Рельса М0" />
+		<animation animationId="Рельса М1" />
+		<animation animationId="Рельса М2" />
+		<animation animationId="Рельса М3" />
+		<animation animationId="Рельса XT" />
 	</railgun>
 	<shotgun>
 		<animation animationId="Молот M0-M3" />
@@ -108,8 +102,8 @@
 		<sound id="isida" url="isida.mp3" />
 		<sound id="bonus" url="bonus.mp3" />
 		<sound id="goldbox_siren" url="goldbox_siren.mp3" />
-		<sound id="mine_deploy" url="mine_deploy.mp3" />
-		<sound id="mine_disintegrate" url="mine_disintegrate.mp3" />
+		<sound id="mine_deploy" url="mine_activation.mp3" />
+		<sound id="mine_disintegrate" url="mine_deactivation.mp3" />
 		<sound id="mine_explosion" url="mine_explosion.mp3" />
 		<sound id="hammer_clip_reload" url="hammer_clip_reload.mp3" />
 		<sound id="hammer_shot" url="hammer_shot.mp3" />
@@ -163,10 +157,23 @@
 		<texture id="red_flag" alpha="ctf/red_flag_alpha.jpg" url="ctf/red_flag.jpg" />
 		<texture id="active_spawn_marker" alpha="NO" url="markers/green_triangle.gif" />
 		<texture id="smoky_muzzle_flash" alpha="smoky/smoky_shot_alpha.jpg" url="smoky/smoky_shot.jpg" />
-		<texture id="damage_shaft" alpha="isida/damage_shaft_alpha.jpg" url="isida/damage_shaft.jpg" />
-		<texture id="damage" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" />
-		<texture id="heal_shaft" alpha="isida/heal_shaft_alpha.jpg" url="isida/heal_shaft.jpg" />
-		<texture id="heal" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" />
+		<texture id="healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" />
+		<texture id="Изида М0_damagingRay" alpha="isida/damage_shaft_alpha.jpg" url="isida/damage_shaft.jpg" brightness="22.566" contrast="-2.655" saturation="0" hue="15.93" />
+		<texture id="Изида М0_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg"  brightness="22.566" contrast="-2.655" saturation="0" hue="15.93" />
+		<texture id="Изида М0_healingRay" alpha="isida/heal_shaft_alpha.jpg" url="isida/heal_shaft.jpg" />
+		<texture id="Изида М0_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" />
+		<texture id="Изида М1_damagingRay" alpha="isida/damage_shaft_alpha.jpg" url="isida/damage_shaft.jpg" brightness="28.208" contrast="-3.54" saturation="53.097" hue="340.88" />
+		<texture id="Изида М1_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg"  brightness="28.208" contrast="-3.54" saturation="53.097" hue="340.88" />
+		<texture id="Изида М1_healingRay" alpha="isida/heal_shaft_alpha.jpg" url="isida/heal_shaft.jpg" brightness="19.181" contrast="-1.77" saturation="8.85" hue="316.99" />
+		<texture id="Изида М1_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" brightness="19.181" contrast="-1.77" saturation="8.85" hue="316.99" />
+		<texture id="Изида М2_damagingRay" alpha="isida/damage_shaft_alpha.jpg" url="isida/damage_shaft.jpg" brightness="19.181" contrast="3.54" saturation="61.947" hue="329.73" />
+		<texture id="Изида М2_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" brightness="19.181" contrast="3.54" saturation="61.947" hue="329.73" />
+		<texture id="Изида М2_healingRay" alpha="isida/heal_shaft_alpha.jpg" url="isida/heal_shaft.jpg" brightness="4.513" contrast="-1.77" saturation="8.85" hue="299.47" />
+		<texture id="Изида М2_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" brightness="4.513" contrast="-1.77" saturation="8.85" hue="299.47" />
+		<texture id="Изида М3_damagingRay" alpha="isida/damage_shaft_alpha.jpg" url="isida/damage_shaft.jpg" brightness="20.31" contrast="-2.655" saturation="70.796" hue="310.62" />
+		<texture id="Изида М3_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" brightness="20.31" contrast="-2.655" saturation="70.796" hue="310.62" />
+		<texture id="Изида М3_healingRay" alpha="isida/heal_shaft_alpha.jpg" url="isida/heal_shaft.jpg" brightness="2.257" contrast="1.77" saturation="26.549" hue="267.61" />
+		<texture id="Изида М3_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" brightness="2.257" contrast="1.77" saturation="26.549" hue="267.61" />
 		<texture id="Смоки М0" alpha="smoky/smoky_explosion0_alpha.jpg" url="smoky/smoky_explosion0.jpg" />
 		<texture id="Смоки М1" alpha="smoky/smoky_explosion1_alpha.jpg" url="smoky/smoky_explosion1.jpg" />
 		<texture id="Смоки М2" alpha="smoky/smoky_explosion2_alpha.jpg" url="smoky/smoky_explosion2.jpg" />
@@ -218,36 +225,41 @@
 		<texture id="tank_explosion/shockwave" alpha="tank_explosion/shock_wave_alpha.jpg" url="tank_explosion/shock_wave.jpg" />
 		<texture id="tank_explosion/explosion" alpha="tank_explosion/explosion_small_alpha.jpg" url="tank_explosion/explosion_small.jpg" />
 		<texture id="tank_explosion/smoke" alpha="tank_explosion/smoke_alpha.jpg" url="tank_explosion/smoke.jpg" />
-		<texture id="Рельса М0_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" />
 		<texture id="Рельса М0_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" />
 		<texture id="Рельса М0_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" />
 		<texture id="Рельса М0_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" />
-		<texture id="Рельса М0_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" />
-		<texture id="Рельса М0_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" />
+		<texture id="Рельса М0_trail" alpha="railgun/trail_alpha.jpg" url="railgun/trail.jpg" />
+		<texture id="Рельса М0_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" />
+		<texture id="Рельса М0_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" />
+		<texture id="Рельса М0_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" />
 		<texture id="Рельса М1_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88" />
 		<texture id="Рельса М1_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88" />
 		<texture id="Рельса М1_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88" />
-		<texture id="Рельса М1_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
-		<texture id="Рельса М1_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+		<texture id="Рельса М1_trail" alpha="railgun/trail_alpha.jpg" url="railgun/trail.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+		<texture id="Рельса М1_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+		<texture id="Рельса М1_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
 		<texture id="Рельса М1_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
 		<texture id="Рельса М2_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
 		<texture id="Рельса М2_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
 		<texture id="Рельса М2_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
-		<texture id="Рельса М2_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
-		<texture id="Рельса М2_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+		<texture id="Рельса М2_trail" alpha="railgun/trail_alpha.jpg" url="railgun/trail.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+		<texture id="Рельса М2_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+		<texture id="Рельса М2_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"  brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
 		<texture id="Рельса М2_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
 		<texture id="Рельса М3_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
 		<texture id="Рельса М3_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
 		<texture id="Рельса М3_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
-		<texture id="Рельса М3_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
-		<texture id="Рельса М3_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+		<texture id="Рельса М3_trail" alpha="railgun/trail_alpha.jpg" url="railgun/trail.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+		<texture id="Рельса М3_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+		<texture id="Рельса М3_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
 		<texture id="Рельса М3_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
-		<texture id="Рельса XT_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
-		<texture id="Рельса XT_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
-		<texture id="Рельса XT_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
-		<texture id="Рельса XT_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
-		<texture id="Рельса XT_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
-		<texture id="Рельса XT_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
+		<texture id="Рельса XT_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="255" />
+		<texture id="Рельса XT_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="255" />
+		<texture id="Рельса XT_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" brightness="255" />
+		<texture id="Рельса XT_trail" alpha="railgun/trail_alpha.jpg" url="railgun/trail.jpg" brightness="255" />
+		<texture id="Рельса XT_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="255" />
+		<texture id="Рельса XT_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"  brightness="255" />
+		<texture id="Рельса XT_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" brightness="255" />
 		<texture id="railgun_pow" alpha="railgun/pow_alpha.jpg" url="railgun/pow.jpg" />
 		<texture id="Молот M0-M3_sparkle" alpha="NO" url="shotgun/sparkle.jpg" />
 		<texture id="Молот M0-M3_smoke" alpha="shotgun/smoke_alpha.jpg" url="shotgun/smoke.jpg" />
@@ -261,6 +273,76 @@
 			<frameWidth>65</frameWidth>
 			<frameHeight>128</frameHeight>
 			<numFrames>6</numFrames>
+			<fps>30</fps>
+		</animation>
+		<animation id="Рельса М0_sphere">
+			<textureId>Рельса М0_sphere</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>20</fps>
+		</animation>
+		<animation id="Рельса М1_sphere">
+			<textureId>Рельса М1_sphere</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>20</fps>
+		</animation>
+		<animation id="Рельса М2_sphere">
+			<textureId>Рельса М2_sphere</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>20</fps>
+		</animation>
+		<animation id="Рельса М3_sphere">
+			<textureId>Рельса М3_sphere</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>20</fps>
+		</animation>
+		<animation id="Рельса XT_sphere">
+			<textureId>Рельса XT_sphere</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>20</fps>
+		</animation>
+		<animation id="Рельса М0_rings">
+			<textureId>Рельса М0_rings</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>30</fps>
+		</animation>
+		<animation id="Рельса М1_rings">
+			<textureId>Рельса М1_rings</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>30</fps>
+		</animation>
+		<animation id="Рельса М2_rings">
+			<textureId>Рельса М2_rings</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>30</fps>
+		</animation>
+		<animation id="Рельса М3_rings">
+			<textureId>Рельса М3_rings</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
+			<fps>30</fps>
+		</animation>
+		<animation id="Рельса XT_rings">
+			<textureId>Рельса XT_rings</textureId>
+			<frameWidth>128</frameWidth>
+			<frameHeight>128</frameHeight>
+			<numFrames>11</numFrames>
 			<fps>30</fps>
 		</animation>
 		<animation id="damage_shaft">
@@ -571,7 +653,7 @@
 			<numFrames>11</numFrames>
 			<fps>30</fps>
 		</animation>
-		<animation id="Молот M0-M3">
+		<animation id="Молот M0-M3_shotAcross">
 			<textureId>Молот M0-M3_shotAcross</textureId>
 			<frameWidth>128</frameWidth>
 			<frameHeight>128</frameHeight>
@@ -710,6 +792,7 @@
 	</turrets>
 	<colormaps path="data/colormaps">
 		<colormap id="green" file="Green.jpg" />
+		<!--colormap id="test" file="user/paint.jpg" frameWidth="128" frameHeight="128" fps="32" numFrames="256"/-->
 		<colormap id="red" file="Red.jpg" />
 		<colormap id="blue" file="Blue.jpg" />
 		<colormap id="black" file="Black.jpg" />
@@ -841,6 +924,7 @@
 		<colormap id="holiday_16" file="holiday\23_04_AprilFoolsDay.jpg" />
 		<colormap id="holiday_17" file="holiday\23_04_CosmonauticsDay.jpg" />
 		<colormap id="holiday_18" file="holiday\23_04_EasterDay.jpg" />
+		<colormap id="holiday_19" file="holiday\23_05_MayDay.jpg" />
 		<colormap id="user_1" file="user\1.jpg" />
 		<colormap id="user_2" file="user\2.jpg" />
 		<colormap id="user_3" file="user\3.jpg" />
