@@ -138,18 +138,6 @@ input[type="button"] {
   clear: left;
 }
 
-.quest-logo {
-  display: table;
-  width: 20%;
-  margin: 0 auto;
-}
-.quest-logo > div {
-  display: table-cell;
-  vertical-align: top;
-  
-  text-align: left;
-}
-
 .g-recaptcha {
   margin: 0 auto;
   width: 304px;
