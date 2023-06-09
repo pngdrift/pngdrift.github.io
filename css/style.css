@@ -132,12 +132,6 @@ input[type="button"] {
   line-height: 1.1;
 }
 
-.preview {
-  padding: 6px;
-  float: right;
-  clear: left;
-}
-
 .g-recaptcha {
   margin: 0 auto;
   width: 304px;
