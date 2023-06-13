@@ -290,22 +290,6 @@
 			"src": "resources/hull/hornet/m3/hull.3ds"
 		},
 		{
-			"name": "hornet_xt_m0",
-			"src": "resources/hull/hornet_xt/m0/hull.3ds"
-		},
-		{
-			"name": "hornet_xt_m1",
-			"src": "resources/hull/hornet_xt/m1/hull.3ds"
-		},
-		{
-			"name": "hornet_xt_m2",
-			"src": "resources/hull/hornet_xt/m2/hull.3ds"
-		},
-		{
-			"name": "hornet_xt_m3",
-			"src": "resources/hull/hornet_xt/m3/hull.3ds"
-		},
-		{
 			"name": "mamont_m0",
 			"src": "resources/hull/mamont/m0/hull.3ds"
 		},

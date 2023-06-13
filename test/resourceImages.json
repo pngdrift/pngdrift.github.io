@@ -902,54 +902,6 @@
 			"src": "resources/hull/hornet/m3/preview.png"
 		},
 		{
-			"name": "hornet_xt_m0_lightmap",
-			"src": "resources/hull/hornet_xt/m0/lightmap.jpg"
-		},
-		{
-			"name": "hornet_xt_m0_details",
-			"src": "resources/hull/hornet_xt/m0/details.png"
-		},
-		{
-			"name": "hornet_xt_m0_preview",
-			"src": "resources/hull/hornet_xt/m0/preview.png"
-		},
-		{
-			"name": "hornet_xt_m1_lightmap",
-			"src": "resources/hull/hornet_xt/m1/lightmap.jpg"
-		},
-		{
-			"name": "hornet_xt_m1_details",
-			"src": "resources/hull/hornet_xt/m1/details.png"
-		},
-		{
-			"name": "hornet_xt_m1_preview",
-			"src": "resources/hull/hornet_xt/m1/preview.png"
-		},
-		{
-			"name": "hornet_xt_m2_lightmap",
-			"src": "resources/hull/hornet_xt/m2/lightmap.jpg"
-		},
-		{
-			"name": "hornet_xt_m2_details",
-			"src": "resources/hull/hornet_xt/m2/details.png"
-		},
-		{
-			"name": "hornet_xt_m2_preview",
-			"src": "resources/hull/hornet_xt/m2/preview.png"
-		},
-		{
-			"name": "hornet_xt_m3_lightmap",
-			"src": "resources/hull/hornet_xt/m3/lightmap.jpg"
-		},
-		{
-			"name": "hornet_xt_m3_details",
-			"src": "resources/hull/hornet_xt/m3/details.png"
-		},
-		{
-			"name": "hornet_xt_m3_preview",
-			"src": "resources/hull/hornet_xt/m3/preview.png"
-		},
-		{
 			"name": "viking_xt_m0_lightmap",
 			"src": "resources/hull/viking_xt/m0/lightmap.jpg"
 		},
