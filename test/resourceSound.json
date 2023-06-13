@@ -111,15 +111,15 @@
 	  },
 	  {
 		"name": "shaft_shot",
-        "src": "resources/turret/shaft/shot.wav"	
+        "src": "resources/turret/shaft/shot.mp3"	
 	  },
 	  {
 		"name": "snowman_shotSound",
-        "src": "resources/turret/snowman/shot.wav"	
+        "src": "resources/turret/snowman/shot.mp3"	
 	  },
 	  {
 		"name": "snowman_shotExplosion",
-        "src": "resources/turret/snowman/expl.wav"	
+        "src": "resources/turret/snowman/expl.mp3"	
 	  }
 	]
 }
