@@ -1434,78 +1434,6 @@
 			"src": "resources/colormaps/vlastelin/preview.png"
 		},
 		{
-			"name": "traceur_m0",
-			"src": "resources/colormaps/traceur/image.jpg"
-		},
-		{
-			"name": "traceur_m0_preview",
-			"src": "resources/colormaps/traceur/preview.png"
-		},
-		{
-			"name": "dima_m0",
-			"src": "resources/colormaps/dima/image.jpg"
-		},
-		{
-			"name": "dima_m0_preview",
-			"src": "resources/colormaps/dima/preview.png"
-		},
-		{
-			"name": "besthelper_m0",
-			"src": "resources/colormaps/besthelper/image.jpg"
-		},
-		{
-			"name": "besthelper_m0_preview",
-			"src": "resources/colormaps/besthelper/preview.png"
-		},
-		{
-			"name": "plexus_m0",
-			"src": "resources/colormaps/plexus/image.jpg",
-			"multiframe": true,
-			"fps": 12,
-			"frame_heigth": 200,
-			"frame_width": 200,
-			"num_frames": 48
-		},
-		{
-			"name": "plexus_m0_preview",
-			"src": "resources/colormaps/plexus/preview.png"
-		},
-		{
-			"name": "blink_m0",
-			"src": "resources/colormaps/blink/image.jpg",
-			"multiframe": true,
-			"fps": 15,
-			"frame_heigth": 400,
-			"frame_width": 400,
-			"num_frames": 9
-		},
-		{
-			"name": "blink_m0_preview",
-			"src": "resources/colormaps/blink/preview.png"
-		},
-		{
-			"name": "space_m0",
-			"src": "resources/colormaps/space/image.jpg",
-			"multiframe": true,
-			"fps": 20,
-			"frame_heigth": 250,
-			"frame_width": 250,
-			"num_frames": 74
-		},
-		{
-			"name": "space_m0_preview",
-			"src": "resources/colormaps/space/preview.png"
-		},
-		{
-			"name": "drgt_m0",
-			"src": "resources/colormaps/drgt/image.jpg",
-			"multiframe": true,
-			"fps": 30,
-			"frame_heigth": 250,
-			"frame_width": 250,
-			"num_frames": 32
-		},
-		{
 			"name": "drgt_m0_preview",
 			"src": "resources/colormaps/drgt/preview.png"
 		},
@@ -1540,38 +1468,6 @@
 		{
 			"name": "acid_m0_preview",
 			"src": "resources/colormaps/acid/preview.png"
-		},
-		{
-			"name": "amilia_m0",
-			"src": "resources/colormaps/amilia/image.jpg"
-		},
-		{
-			"name": "amilia_m0_preview",
-			"src": "resources/colormaps/amilia/preview.png"
-		},
-		{
-			"name": "redsuit_m0",
-			"src": "resources/colormaps/redsuit/image.jpg"
-		},
-		{
-			"name": "redsuit_m0_preview",
-			"src": "resources/colormaps/redsuit/preview.png"
-		},
-		{
-			"name": "spid_m0",
-			"src": "resources/colormaps/spid/image.jpg"
-		},
-		{
-			"name": "spid_m0_preview",
-			"src": "resources/colormaps/spid/preview.png"
-		},
-		{
-			"name": "discord_m0",
-			"src": "resources/colormaps/discord/image.jpg"
-		},
-		{
-			"name": "discord_m0_preview",
-			"src": "resources/colormaps/discord/preview.png"
 		},
 		{
 			"name": "tot_m0",
