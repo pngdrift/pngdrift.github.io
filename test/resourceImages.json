@@ -2374,24 +2374,8 @@
 			"src": "resources/maps/map_fortknox_II_preview.jpg?v120"
 		},
 		{
-			"name": "map_testing_ground_1_preview",
-			"src": "resources/maps/map_testing_ground_1.jpg?v120"
-		},
-		{
-			"name": "map_flying_test_preview",
-			"src": "resources/maps/map_testing_ground_1.jpg?v120"
-		},
-		{
 			"name": "map_silence_2_preview",
 			"src": "resources/maps/map_silence_2_preview.jpg?v120"
-		},
-		{
-			"name": "map_test_k_preview",
-			"src": "resources/maps/map_test_k_preview.jpg?v120"
-		},
-		{
-			"name": "map_shadow_preview",
-			"src": "resources/maps/map_shadow_preview.jpg?v120"
 		},
 		{
 			"name": "map_arena_2_preview",

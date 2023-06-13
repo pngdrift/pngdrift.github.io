@@ -352,7 +352,7 @@
 	  },
 	  {
 		"name": "parachute",
-		"src": "resources/bonus/parachute1/parachute.3ds"
+		"src": "resources/bonus/parachute/parachute.3ds"
 	  },
 	  {
 		"name": "parachute_inner",
