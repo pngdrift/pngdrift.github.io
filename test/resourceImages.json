@@ -1,0 +1,18 @@
+{
+	"id": "IMAGES",
+	"items": [
+		{
+			"name": "ancientrunes_m0",
+			"src": "colormaps/ancient_runes/image.jpg",
+			"multiframe": true,
+			"fps": 15,
+			"frame_heigth": 144,
+			"frame_width": 144,
+			"num_frames": 36
+		},
+		{
+			"name": "ancientrunes_m0_preview",
+			"src": "colormaps/ancient_runes/preview.png"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"id": "MODELS",
+	"items": [{
+			"name": "flagBlueModel_pedestal",
+			"src": "ctf/pedestal/blue_pedestal/flag_stand_blue.3ds"
+		}
+	]
+}
