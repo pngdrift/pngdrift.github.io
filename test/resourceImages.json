@@ -958,14 +958,6 @@
 			"src": "resources/colormaps/anubis/preview.png"
 		},
 		{
-			"name": "arab_m0",
-			"src": "resources/colormaps/arab/image.jpg"
-		},
-		{
-			"name": "arab_m0_preview",
-			"src": "resources/colormaps/arab/preview.png"
-		},
-		{
 			"name": "green_m0",
 			"src": "resources/colormaps/green/image.jpg"
 		},
@@ -1334,14 +1326,6 @@
 			"src": "resources/colormaps/irbis/preview.png"
 		},
 		{
-			"name": "irbis2_m0",
-			"src": "resources/colormaps/irbis/image.jpg"
-		},
-		{
-			"name": "irbis2_m0_preview",
-			"src": "resources/colormaps/irbis/preview.png"
-		},
-		{
 			"name": "izumurud_m0",
 			"src": "resources/colormaps/izumurud/image.jpg"
 		},
@@ -1484,10 +1468,6 @@
 		{
 			"name": "map_berlin_preview",
 			"src": "resources/maps/map_berlin_preview.jpg?v120"
-		},
-		{
-			"name": "map_big_preview",
-			"src": "resources/maps/map_big_preview.jpg?v120"
 		},
 		{
 			"name": "map_bobruisk_preview",
