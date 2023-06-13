@@ -902,18 +902,6 @@
 			"src": "resources/hull/hornet/m3/preview.png"
 		},
 		{
-			"name": "viking_xt_m0_lightmap",
-			"src": "resources/hull/viking_xt/m0/lightmap.jpg"
-		},
-		{
-			"name": "viking_xt_m0_details",
-			"src": "resources/hull/viking_xt/m0/details.png"
-		},
-		{
-			"name": "viking_xt_m0_preview",
-			"src": "resources/hull/viking_xt/m0/preview.png"
-		},
-		{
 			"name": "mamont_m0_lightmap",
 			"src": "resources/hull/mamont/m0/lightmap.jpg"
 		},
@@ -1386,32 +1374,12 @@
 			"src": "resources/colormaps/vlastelin/preview.png"
 		},
 		{
-			"name": "drgt_m0_preview",
-			"src": "resources/colormaps/drgt/preview.png"
-		},
-		{
 			"name": "champion_m0",
 			"src": "resources/colormaps/champion/image.jpg"
 		},
 		{
 			"name": "champion_m0_preview",
 			"src": "resources/colormaps/champion/preview.png"
-		},
-		{
-			"name": "marshal_m0",
-			"src": "resources/colormaps/marshal/image.jpg"
-		},
-		{
-			"name": "marshal_m0_preview",
-			"src": "resources/colormaps/marshal/preview.png"
-		},
-		{
-			"name": "helios_m0",
-			"src": "resources/colormaps/helios/image.jpg"
-		},
-		{
-			"name": "helios_m0_preview",
-			"src": "resources/colormaps/helios/preview.png"
 		},
 		{
 			"name": "acid_m0",

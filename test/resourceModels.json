@@ -30,10 +30,6 @@
 			"src": "resources/hull/viking/m3/hull.3ds"
 		},
 		{
-			"name": "viking_xt_m0",
-			"src": "resources/hull/viking_xt/m0/hull.3ds"
-		},
-		{
 			"name": "thunder_m0",
 			"src": "resources/turret/thunder/m0/turret.3ds"
 		},
