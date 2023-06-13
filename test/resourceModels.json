@@ -356,7 +356,7 @@
 	  },
 	  {
 		"name": "parachute_inner",
-		"src": "resources/bonus/parachute1_inner/parachute_inner.3ds"
+		"src": "resources/bonus/parachute_inner/parachute_inner.3ds"
 	  },
 	  {
 		"name": "modelId_mine",
