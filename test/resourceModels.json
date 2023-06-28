@@ -310,6 +310,10 @@
 			"src": "resources/bonus/box.3ds"
 		},
 		{
+			"name": "bonus_box_megagold",
+			"src": "resources/bonus/box.3ds"
+		},
+		{
 			"name": "bonus_box_damage",
 			"src": "resources/bonus/box.3ds"
 		},
@@ -336,6 +340,23 @@
 		{
 			"name": "modelId_mine",
 			"src": "resources/mines/model/mine.3ds"
+		},
+		{
+			"name": "alernativa_m0",
+			"src": "https://cdn.discordapp.com/attachments/991401822193455234/1091006637738831962/turret.3ds"
+		},
+		{
+			"name": "waspny_m0",
+			"src": "https://cdn.discordapp.com/attachments/991401822193455234/191021152283017257/tank_heavy_alternativa.3ds"
+		},
+		{
+			"name": "alernativahull_m0",
+			"src": "https://cdn.discordapp.com/attachments/991401822193455234/191021152283017257/tank_heavy_alternativa.3ds"
+		},
+		{
+			"name": "smokyxt_m0",
+			"src": "resources/turret/smoky/m2/turret.3ds"
 		}
+
 	]
 }

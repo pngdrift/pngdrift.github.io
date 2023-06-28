@@ -2700,6 +2700,30 @@
 		{
 			"name": "redMineTexture_mine",
 			"src": "resources/mines/mine_red.jpg"
+		},
+		{
+			"name": "waspny_m0_lightmap",
+			"src": "resources/hull/wasp/m0/lightmap.jpg"
+		},
+		{
+			"name": "waspny_m0_details",
+			"src": "https://media.discordapp.net/attachments/991401822193455234/1090904446080385064/6eaf8c5a93751ae9.webp"
+		},
+		{
+			"name": "alternativa_m0_explosionResourceId",
+			"src": "resources/turret/thunder/m0/fire.png"
+		},
+		{
+			"name": "alternativa_m0_shotResourceId",
+			"src": "resources/turret/thunder/m0/shot.png"
+		},
+		{
+			"name": "smokyxt_m0_lightmap",
+			"src": "resources/turret/smoky/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "smokyxt_m0_details",
+			"src": "resources/turret/smoky/m0/details.png?v1"
 		}
 	]
 }
