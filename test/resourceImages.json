@@ -2728,6 +2728,31 @@
 		{
 			"name": "bonus_box_megagold",
 			"src": "resources/bonus/boxes/crystal100/box.jpg?v1"
+		},
+		{
+			"name": "skybox_desert_01",
+			"src": "resources/skyboxes/desert/01.jpg"
+		},
+		{
+			"name": "skybox_desert_02",
+			"src": "resources/skyboxes/desert/02.jpg"
+		},
+		{
+			"name": "skybox_desert_03",
+			"src": "resources/skyboxes/desert/03.jpg"
+		},
+		{
+			"name": "skybox_desert_04",
+			"src": "resources/skyboxes/desert/04.jpg"
+		},
+		{
+			"name": "skybox_desert_05",
+			"src": "resources/skyboxes/desert/05.jpg"
+		},
+		{
+			"name": "skybox_desert_06",
+			"src": "resources/skyboxes/desert/06.jpg"
 		}
+
 	]
 }
