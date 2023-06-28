@@ -2724,6 +2724,10 @@
 		{
 			"name": "smokyxt_m0_details",
 			"src": "resources/turret/smoky/m0/details.png?v1"
+		},
+		{
+			"name": "bonus_box_megagold",
+			"src": "resources/bonus/boxes/crystal100/box.jpg?v1"
 		}
 	]
 }
