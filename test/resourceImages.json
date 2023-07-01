@@ -2752,7 +2752,11 @@
 		{
 			"name": "skybox_desert_06",
 			"src": "resources/skyboxes/desert/06.jpg"
-		}
+		},
+		{
+         	   "name": "double_crystalls_m0_preview",
+       	     "src": "effects/Crystal_discount.png"
+       		 }
 
 	]
 }
