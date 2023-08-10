@@ -1,0 +1,71 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string"
+            },
+            "modification": {
+                "type": "integer"
+            },
+            "physics": {
+                "type": "object",
+                "properties": {
+                    "speed": {
+                        "type": [
+                            "number"
+                        ]
+                    },
+                    "turnSpeed": {
+                        "type": "number"
+                    },
+                    "acceleration": {
+                        "type": [
+                            "number"
+                        ]
+                    },
+                    "reverseAcceleration": {
+                        "type": [
+                            "number"
+                        ]
+                    },
+                    "sideAcceleration": {
+                        "type": [
+                            "number"
+                        ]
+                    },
+                    "turnAcceleration": {
+                        "type": "number"
+                    },
+                    "reverseTurnAcceleration": {
+                        "type": "number"
+                    },
+                    "damping": {
+                        "type": "integer"
+                    },
+                    "mass": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "speed",
+                    "turnSpeed",
+                    "acceleration",
+                    "reverseAcceleration",
+                    "sideAcceleration",
+                    "turnAcceleration",
+                    "reverseTurnAcceleration",
+                    "damping",
+                    "mass"
+                ]
+            }
+        },
+        "required": [
+            "id",
+            "modification",
+            "physics"
+        ]
+    }
+}
