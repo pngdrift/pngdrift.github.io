@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "defaultTurret": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "modification": {
+                    "type": "integer"
+                }
+            },
+            "required": ["id", "modification"]
+        },
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "modification": {
+                        "type": "integer"
+                    },
+                    "defaultWeapon": {
+                        "type": "string"
+                    }
+                },
+                "required": ["id", "modification", "defaultWeapon"],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": ["defaultTurret", "data"],
+    "dependencies": {
+        "defaultTurret": ["data"]
+    }
+}

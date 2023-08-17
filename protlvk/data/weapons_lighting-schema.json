@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "effects": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "effectName": {
+                        "type": "string"
+                    },
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "attenuationBegin": {
+                                    "type": "number"
+                                },
+                                "attenuationEnd": {
+                                    "type": "number"
+                                },
+                                "color": {
+                                    "oneOf": [
+                                        {
+                                            "type": "string",
+                                            "pattern": "^0x[0-9A-Fa-f]{6}$"
+                                        },
+                                        {
+                                            "type": "integer"
+                                        }
+                                    ]
+                                },
+                                "intensity": {
+                                    "type": "number"
+                                },
+                                "time": {
+                                    "type": "integer"
+                                }
+                            },
+                            "required": [
+                                "attenuationBegin",
+                                "attenuationEnd",
+                                "color",
+                                "intensity",
+                                "time"
+                            ],
+                            "additionalProperties": false
+                        }
+                    }
+                },
+                "required": [
+                    "effectName",
+                    "items"
+                ],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": [
+        "effects"
+    ]
+}
