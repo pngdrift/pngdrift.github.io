@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "properties": {
+        "maps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "defaultVisual": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": "string",
+                        "enum": [
+                            "summer",
+                            "winter",
+                            "holiday",
+                            "test"
+                        ]
+                    },
+                    "name": {
+                        "type": "object",
+                        "properties": {
+                            "ru": {
+                                "type": "string"
+                            },
+                            "en": {
+                                "type": "string"
+                            },
+                            "ua": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "ru",
+                            "en",
+                            "ua"
+                        ],
+                        "additionalProperties": false
+                    }
+                },
+                "required": [
+                    "id",
+                    "defaultVisual",
+                    "category",
+                    "name"
+                ],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": [
+        "maps"
+    ]
+}
