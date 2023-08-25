@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <christmasTree animatedToys="true" />
+    <skyboxes baseUrl="data/assets/skyboxes/" />
+    <models baseUrl="data/assets/">
+        <model id="flag_stand" url="ctf/flag_stand.3ds" />
+        <model id="gold_box" url="bonuses/gold.3ds" />
+        <model id="box" url="bonuses/box.3ds" />
+        <model id="mine" url="mines/mine.3ds" />
+        <model id="parachute" url="bonuses/parachute.3ds" />
+        <model id="parachuteInner" url="bonuses/parachuteInner.3ds" />
+        <model id="propTextureNotFound" url="emptyPropTexture.jfif" />
+    </models>
+    <textures baseUrl="data/assets/">
+        <texture id="green_mine" url="mines/green.jpg" />
+        <texture id="red_mine" url="mines/red.jpg" />
+        <texture id="blue_mine" url="mines/blue.jpg" />
+        <texture id="yellow_mine" url="mines/yellow.jpg" />
+        <texture id="mine_main_explosion" alpha="mines/main_explosion_alpha.jpg" url="mines/main_explosion.jpg" params="mines/main_explosion_params.xml" />
+        <texture id="mine_idle_explosion" alpha="mines/idle_explosion_alpha.jpg" url="mines/idle_explosion.jpg" params="mines/idle_explosion_params.xml" />
+        <texture id="dust_summer" alpha="dust/dust_alpha.jpg" url="dust/dust.jpg" params="dust/dust_params.xml" />
+        <texture id="dust_winter" alpha="dust/dust_winter_alpha.jpg" url="dust/dust_winter.jpg" params="dust/dust_params.xml" />
+        <texture id="mine_decal" url="mines/decal.png" />
+        <texture id="smoky_decal" url="smoky/decal.png" />
+        <texture id="thunder_decal" url="thunder/decal.png" />
+        <texture id="shaft_decal" url="shaft/decal.png" />
+        <texture id="twins_decal" url="twins/decal.png" />
+        <texture id="railgun_decal" url="railgun/decal.png" />
+        <texture id="shotgun0_decal" url="shotgun/decal0.png" />
+        <texture id="shotgun1_decal" url="shotgun/decal1.png" />
+        <texture id="shotgun2_decal" url="shotgun/decal2.png" />
+        <texture id="shotgun3_decal" url="shotgun/decal3.png" />
+        <texture id="parachute" url="bonuses/para.jpg" />
+        <texture id="parachute_inner" url="bonuses/para_in.jpg" />
+        <texture id="cords" url="bonuses/cords.png" />
+        <texture id="medkit_box" url="bonuses/medkit.jpg" />
+        <texture id="armor_box" url="bonuses/armor.jpg" />
+        <texture id="damage_box" url="bonuses/damage.jpg" />
+        <texture id="nitro_box" url="bonuses/nitro.jpg" />
+        <texture id="cry_box" url="bonuses/cry.jpg" />
+        <texture id="gold_box" url="bonuses/gold.jpg" />
+        <texture id="red_square" url="collision/red_square.gif" />
+        <texture id="green_square" url="collision/green_square.gif" />
+        <texture id="teal_triangle" url="collision/teal_triangle.gif" />
+        <texture id="active_spawn_marker" url="markers/green_arrow.gif" />
+        <texture id="dm_spawn_marker" url="markers/yellow_marker.gif" />
+        <texture id="red_spawn_marker" url="markers/red_marker.gif" />
+        <texture id="blue_spawn_marker" url="markers/blue_marker.gif" />
+        <texture id="dom_spawn_marker" url="markers/cp_marker.gif" />
+        <texture id="neutral_point_marker" url="cp/point.png" />
+        <texture id="fs_blue" url="ctf/fs_blue.jpg" />
+        <texture id="fs_red" url="ctf/fs_red.jpg" />
+        <texture id="blue_flag" url="ctf/blue_flag.png" />
+        <texture id="red_flag" url="ctf/red_flag.png" />
+        <texture id="smoky_muzzle_flash" url="smoky/smoky_shot.png" />
+        <texture id="isida_m0_damagingRay" url="isida/damage_shaft.png" brightness="22.566" contrast="-2.655" hue="15.93" />
+        <texture id="isida_m0_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" brightness="22.566" contrast="-2.655" hue="15.93" />
+        <texture id="isida_m0_healingRay" url="isida/heal_shaft.png" />
+        <texture id="isida_m0_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" />
+        <texture id="isida_m1_damagingRay" url="isida/damage_shaft.png" brightness="28.208" contrast="-3.54" saturation="53.097" hue="340.88" />
+        <texture id="isida_m1_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" brightness="28.208" contrast="-3.54" saturation="53.097" hue="340.88" />
+        <texture id="isida_m1_healingRay" url="isida/heal_shaft.png" brightness="19.181" contrast="-1.77" saturation="8.85" hue="316.99" />
+        <texture id="isida_m1_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" brightness="19.181" contrast="-1.77" saturation="8.85" hue="316.99" />
+        <texture id="isida_m2_damagingRay" url="isida/damage_shaft.png" brightness="19.181" contrast="3.54" saturation="61.947" hue="329.73" />
+        <texture id="isida_m2_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" brightness="19.181" contrast="3.54" saturation="61.947" hue="329.73" />
+        <texture id="isida_m2_healingRay" url="isida/heal_shaft.png" brightness="4.513" contrast="-1.77" saturation="8.85" hue="299.47" />
+        <texture id="isida_m2_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" brightness="4.513" contrast="-1.77" saturation="8.85" hue="299.47" />
+        <texture id="isida_m3_damagingRay" url="isida/damage_shaft.png" brightness="20.31" contrast="-2.655" saturation="70.796" hue="310.62" />
+        <texture id="isida_m3_damagingBall" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" brightness="20.31" contrast="-2.655" saturation="70.796" hue="310.62" />
+        <texture id="isida_m3_healingRay" url="isida/heal_shaft.png" brightness="2.257" contrast="1.77" saturation="26.549" hue="267.61" />
+        <texture id="isida_m3_healingBall" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" brightness="2.257" contrast="1.77" saturation="26.549" hue="267.61" />
+        <texture id="smoky_m0_explosion" alpha="smoky/smoky_explosion0_alpha.jpg" url="smoky/smoky_explosion0.jpg" params="smoky/smoky_explosion_params.xml" />
+        <texture id="smoky_m1_explosion" alpha="smoky/smoky_explosion1_alpha.jpg" url="smoky/smoky_explosion1.jpg" params="smoky/smoky_explosion_params.xml" />
+        <texture id="smoky_m2_explosion" alpha="smoky/smoky_explosion2_alpha.jpg" url="smoky/smoky_explosion2.jpg" params="smoky/smoky_explosion_params.xml" />
+        <texture id="smoky_m3_explosion" alpha="smoky/smoky_explosion3_alpha.jpg" url="smoky/smoky_explosion3.jpg" params="smoky/smoky_explosion_params.xml" />
+        <texture id="critical_hit" alpha="smoky/critical_hit_alpha.jpg" url="smoky/critical_hit.jpg" params="smoky/critical_hit_params.xml" />
+        <texture id="flamethrower_fireball" alpha="flamethrower/fireball_alpha.jpg" url="flamethrower/fireball.jpg" params="flamethrower/fireball_params.xml" />
+        <texture id="flamethrower_m0_muzzle" alpha="flamethrower/m0/muzzle_alpha.jpg" url="flamethrower/m0/muzzle.jpg" params="flamethrower/muzzle_params.xml" />
+        <texture id="flamethrower_m1_muzzle" alpha="flamethrower/m1/muzzle_alpha.jpg" url="flamethrower/m1/muzzle.jpg" params="flamethrower/muzzle_params.xml" />
+        <texture id="flamethrower_m2_muzzle" alpha="flamethrower/m2/muzzle_alpha.jpg" url="flamethrower/m2/muzzle.jpg" params="flamethrower/muzzle_params.xml" />
+        <texture id="flamethrower_m3_muzzle" alpha="flamethrower/m3/muzzle_alpha.jpg" url="flamethrower/m3/muzzle.jpg" params="flamethrower/muzzle_params.xml" />
+        <texture id="freeze" alpha="freeze/freezeballs_alpha.jpg" url="freeze/freezeballs.jpg" params="freeze/freezeballs_params.xml" />
+        <texture id="freeze_muzzle" alpha="freeze/muzzle_alpha.jpg" url="freeze/muzzle.jpg" params="freeze/muzzle_params.xml" />
+        <texture id="thunder_m0" alpha="thunder/thunder_explosion0_alpha.jpg" url="thunder/thunder_explosion0.jpg" params="thunder/thunder_explosion_params.xml" />
+        <texture id="thunder_m1" alpha="thunder/thunder_explosion1_alpha.jpg" url="thunder/thunder_explosion1.jpg" params="thunder/thunder_explosion_params.xml" />
+        <texture id="thunder_m2" alpha="thunder/thunder_explosion2_alpha.jpg" url="thunder/thunder_explosion2.jpg" params="thunder/thunder_explosion_params.xml" />
+        <texture id="thunder_m3" alpha="thunder/thunder_explosion3_alpha.jpg" url="thunder/thunder_explosion3.jpg" params="thunder/thunder_explosion_params.xml" />
+        <texture id="thunder_m0_shot" url="thunder/shot0.png" />
+        <texture id="thunder_m1_shot" alpha="thunder/shot1_alpha.jpg" url="thunder/shot1.jpg" />
+        <texture id="thunder_m2_shot" alpha="thunder/shot2_alpha.jpg" url="thunder/shot2.jpg" />
+        <texture id="thunder_m3_shot" url="thunder/shot3.png" />
+        <texture id="shaft_m0_explosion" alpha="shaft/shaft_explosion_alpha.jpg" url="shaft/shaft_explosion.jpg" params="shaft/shaft_explosion_params.xml" />
+        <texture id="shaft_m1_explosion" alpha="shaft/shaft_explosion_alpha.jpg" url="shaft/shaft_explosion.jpg" brightness="18.053" contrast="-2.655" saturation="44.248" hue="339.29" params="shaft/shaft_explosion_params.xml" />
+        <texture id="shaft_m2_explosion" alpha="shaft/shaft_explosion_alpha.jpg" url="shaft/shaft_explosion.jpg" brightness="14.668" contrast="-5.31" saturation="61.947" hue="313.81" params="shaft/shaft_explosion_params.xml" />
+        <texture id="shaft_m3_explosion" alpha="shaft/shaft_explosion_alpha.jpg" url="shaft/shaft_explosion.jpg" brightness="11.283" contrast="-5.31" saturation="150.442" hue="302.65" params="shaft/shaft_explosion_params.xml" />
+        <texture id="twins_m0_flash" url="twins/muzzle_flash.png" />
+        <texture id="twins_m0" alpha="twins/charge_alpha.jpg" url="twins/charge.jpg" params="twins/charge_params.xml" />
+        <texture id="twins_m0_exp" alpha="twins/explosion_alpha.jpg" url="twins/explosion.jpg" params="twins/explosion_params.xml" />
+        <texture id="twins_m1_flash" url="twins/muzzle_flash.png" hue="46.19" />
+        <texture id="twins_m1" alpha="twins/charge_alpha.jpg" url="twins/charge.jpg" hue="46.19" params="twins/charge_params.xml" />
+        <texture id="twins_m1_exp" alpha="twins/explosion_alpha.jpg" url="twins/explosion.jpg" hue="46.19" params="twins/explosion_params.xml" />
+        <texture id="twins_m2_flash" url="twins/muzzle_flash.png" brightness="30.465" contrast="2.655" saturation="-17.699" hue="73.27" params="twins/explosion_params.xml" />
+        <texture id="twins_m2" alpha="twins/charge_alpha.jpg" url="twins/charge.jpg" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19" params="twins/charge_params.xml" />
+        <texture id="twins_m2_exp" alpha="twins/explosion_alpha.jpg" url="twins/explosion.jpg" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19" params="twins/explosion_params.xml" />
+        <texture id="twins_m3_flash" url="twins/muzzle_flash.png" brightness="10.155" contrast="2.655" saturation="-17.699" hue="73.27" />
+        <texture id="twins_m3" alpha="twins/charge_alpha.jpg" url="twins/charge.jpg" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88" params="twins/charge_params.xml" />
+        <texture id="twins_m3_exp" alpha="twins/explosion_alpha.jpg" url="twins/explosion.jpg" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88" params="twins/explosion_params.xml" />
+        <texture id="ricochet_m0_flash" url="ricochet/muzzle_flash.png" brightness="14.668" saturation="-8.85" hue="6.37" />
+        <texture id="ricochet_m0" alpha="ricochet/shot_alpha.jpg" url="ricochet/shot.jpg" brightness="14.668" saturation="-8.85" hue="6.37" params="ricochet/shot_params.xml" />
+        <texture id="ricochet_m0_exp" alpha="ricochet/explosion_alpha.jpg" url="ricochet/explosion.jpg" brightness="14.668" saturation="-8.85" hue="6.37" params="ricochet/explosion_params.xml" />
+        <texture id="ricochet_m0_trail" url="ricochet/trail.png" brightness="14.668" saturation="-8.85" hue="6.37" />
+        <texture id="ricochet_m1_flash" url="ricochet/muzzle_flash.png" brightness="1.128" hue="345.66" />
+        <texture id="ricochet_m1" alpha="ricochet/shot_alpha.jpg" url="ricochet/shot.jpg" brightness="1.128" hue="345.66" params="ricochet/shot_params.xml" />
+        <texture id="ricochet_m1_exp" alpha="ricochet/explosion_alpha.jpg" url="ricochet/explosion.jpg" brightness="1.128" hue="345.66" params="ricochet/explosion_params.xml" />
+        <texture id="ricochet_m1_trail" url="ricochet/trail.png" brightness="1.128" hue="345.66" />
+        <texture id="ricochet_m2_flash" url="ricochet/muzzle_flash.png" brightness="1.128" hue="1.59" />
+        <texture id="ricochet_m2" alpha="ricochet/shot_alpha.jpg" url="ricochet/shot.jpg" brightness="1.128" hue="1.59" params="ricochet/shot_params.xml" />
+        <texture id="ricochet_m2_exp" alpha="ricochet/explosion_alpha.jpg" url="ricochet/explosion.jpg" brightness="1.128" hue="1.59" params="ricochet/explosion_params.xml" />
+        <texture id="ricochet_m2_trail" url="ricochet/trail.png" brightness="1.128" hue="1.59" />
+        <texture id="ricochet_m3_flash" url="ricochet/muzzle_flash.png" brightness="1.128" hue="353.63" />
+        <texture id="ricochet_m3" alpha="ricochet/shot_alpha.jpg" url="ricochet/shot.jpg" brightness="1.128" hue="353.63" params="ricochet/shot_params.xml" />
+        <texture id="ricochet_m3_exp" alpha="ricochet/explosion_alpha.jpg" url="ricochet/explosion.jpg" brightness="1.128" hue="353.63" params="ricochet/explosion_params.xml" />
+        <texture id="ricochet_m3_trail" url="ricochet/trail.png" brightness="1.128" hue="353.63" />
+        <texture id="tank_explosion/shockwave" alpha="tank_explosion/shock_wave_alpha.jpg" url="tank_explosion/shock_wave.jpg" params="tank_explosion/shock_wave_params.xml" />
+        <texture id="tank_explosion/explosion" alpha="tank_explosion/explosion_alpha.jpg" url="tank_explosion/explosion.jpg" params="tank_explosion/explosion_params.xml" />
+        <texture id="tank_explosion/smoke" alpha="tank_explosion/smoke_alpha.jpg" url="tank_explosion/smoke.jpg" params="tank_explosion/smoke_params.xml" />
+        <texture id="railgun_m0_part1" url="railgun/charge_part1.png" />
+        <texture id="railgun_m0_part2" url="railgun/charge_part2.png" />
+        <texture id="railgun_m0_part3" url="railgun/charge_part3.png" />
+        <texture id="railgun_m0_trail" url="railgun/trail.png" />
+        <texture id="railgun_m0_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" params="railgun/rings_params.xml" />
+        <texture id="railgun_m0_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" params="railgun/sphere_params.xml" />
+        <texture id="railgun_m0_smoke" url="railgun/smoke.png" />
+        <texture id="railgun_m1_part1" url="railgun/charge_part1.png" brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88" />
+        <texture id="railgun_m1_part2" url="railgun/charge_part2.png" brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88" />
+        <texture id="railgun_m1_part3" url="railgun/charge_part3.png" brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88" />
+        <texture id="railgun_m1_trail" url="railgun/trail.png" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+        <texture id="railgun_m1_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" params="railgun/rings_params.xml" />
+        <texture id="railgun_m1_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" params="railgun/sphere_params.xml" />
+        <texture id="railgun_m1_smoke" url="railgun/smoke.png" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+        <texture id="railgun_m2_part1" url="railgun/charge_part1.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+        <texture id="railgun_m2_part2" url="railgun/charge_part2.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+        <texture id="railgun_m2_part3" url="railgun/charge_part3.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+        <texture id="railgun_m2_trail" url="railgun/trail.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+        <texture id="railgun_m2_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" params="railgun/rings_params.xml" />
+        <texture id="railgun_m2_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" params="railgun/sphere_params.xml" />
+        <texture id="railgun_m2_smoke" url="railgun/smoke.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+        <texture id="railgun_m3_part1" url="railgun/charge_part1.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+        <texture id="railgun_m3_part2" url="railgun/charge_part2.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+        <texture id="railgun_m3_part3" url="railgun/charge_part3.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+        <texture id="railgun_m3_trail" url="railgun/trail.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+        <texture id="railgun_m3_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" params="railgun/rings_params.xml" />
+        <texture id="railgun_m3_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" params="railgun/sphere_params.xml" />
+        <texture id="railgun_m3_smoke" url="railgun/smoke.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+        <texture id="railgun_xt_part1" url="railgun/charge_part1.png" brightness="255" />
+        <texture id="railgun_xt_part2" url="railgun/charge_part2.png" brightness="255" />
+        <texture id="railgun_xt_part3" url="railgun/charge_part3.png" brightness="255" />
+        <texture id="railgun_xt_trail" url="railgun/trail.png" brightness="255" />
+        <texture id="railgun_xt_rings" alpha="railgun/rings_alpha.jpg" url="railgun/rings.jpg" brightness="255" params="railgun/rings_params.xml" />
+        <texture id="railgun_xt_sphere" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="255" params="railgun/sphere_params.xml" />
+        <texture id="railgun_xt_smoke" url="railgun/smoke.png" brightness="255" />
+        <texture id="railgun_pow" alpha="railgun/pow.jpg" url="railgun/pow.jpg" params="railgun/pow_params.xml" />
+        <texture id="shotgun_sparkle" url="shotgun/sparkle.jpg" />
+        <texture id="shotgun_smoke" alpha="shotgun/smoke_alpha.jpg" url="shotgun/smoke.jpg" params="shotgun/smoke_params.xml" />
+        <texture id="shotgun_shotAcross" alpha="shotgun/shotAcross_alpha.jpg" url="shotgun/shotAcross.jpg" params="shotgun/shotAcross_params.xml" />
+        <texture id="shotgun_shotAlong" alpha="shotgun/shotAlong_alpha.jpg" url="shotgun/shotAlong.jpg" params="shotgun/shotAlong_params.xml" />
+        <texture id="shotgun_pelletTrail" url="shotgun/pelletTrail.png" />
+        <texture id="machinegun_crumbs" url="machinegun/crumbs.png" />
+        <texture id="machinegun_tracer" url="machinegun/tracer.png" />
+        <texture id="machinegun_dust" alpha="machinegun/dust_alpha.jpg" url="machinegun/dust.jpg" params="machinegun/dust_params.xml" />
+        <texture id="machinegun_fireAcross" alpha="machinegun/fireAcross_alpha.jpg" url="machinegun/fireAcross.jpg" params="machinegun/fireAcross_params.xml" />
+        <texture id="machinegun_fireAlong" alpha="machinegun/fireAlong_alpha.jpg" url="machinegun/fireAlong.jpg" params="machinegun/fireAlong_params.xml" />
+        <texture id="machinegun_smoke" alpha="machinegun/smoke_alpha.jpg" url="machinegun/smoke.jpg" params="machinegun/smoke_params.xml" />
+        <texture id="machinegun_sparkles" alpha="machinegun/sparkles_alpha.jpg" url="machinegun/sparkles.jpg" params="machinegun/sparkles_params.xml" />
+        <texture id="machinegun_tankSparkles" alpha="machinegun/tankSparkles_alpha.jpg" url="machinegun/tankSparkles.jpg" params="machinegun/tankSparkles_params.xml" />
+    </textures>
+    <sounds baseUrl="data/assets/sounds">
+        <sound id="engine_idle" url="engine_idle.mp3" />
+        <sound id="engine_accelerate" url="engine_accelerate.mp3" />
+        <sound id="engine_motion" url="engine_motion.mp3" />
+        <sound id="turret_rotate" url="turret_rotate.mp3" />
+        <sound id="rank_up" url="rank_up.mp3" />
+        <sound id="tank_explosion" url="tank_explosion.mp3" />
+        <sound id="railgun" url="railgun.mp3" />
+        <sound id="smoky_hit" url="smoky_hit.mp3" />
+        <sound id="shaft_hit" url="shaft_hit.mp3" />
+        <sound id="thunder_hit" url="thunder_hit.mp3" />
+        <sound id="smoky_shot" url="smoky_shot.mp3" />
+        <sound id="thunder_shot" url="thunder_shot.mp3" />
+        <sound id="shaft_shot" url="shaft_shot.mp3" />
+        <sound id="twins_shot" url="twins_shot.mp3" />
+        <sound id="ricochet_shot" url="ricochet_shot.mp3" />
+        <sound id="ricochet_hit" url="ricochet_hit.mp3" />
+        <sound id="ricochet" url="ricochet.mp3" />
+        <sound id="flamethrower" url="firebird.mp3" />
+        <sound id="freeze" url="freeze.mp3" />
+        <sound id="isida" url="isida.mp3" />
+        <sound id="bonus" url="bonus.mp3" />
+        <sound id="goldbox_siren" url="goldbox_siren.mp3" />
+        <sound id="mine_deploy" url="mine_activation.mp3" />
+        <sound id="mine_disintegrate" url="mine_deactivation.mp3" />
+        <sound id="mine_explosion" url="mine_explosion.mp3" />
+        <sound id="hammer_clip_reload" url="hammer_clip_reload.mp3" />
+        <sound id="hammer_shot" url="hammer_shot.mp3" />
+        <sound id="hammer_shot_reload" url="hammer_shot_reload.mp3" />
+        <sound id="flag_captured" url="flag_captured.mp3" />
+        <sound id="flag_lost" url="flag_lost.mp3" />
+        <sound id="flag_returned" url="flag_returned.mp3" />
+        <sound id="flag_taken" url="flag_taken.mp3" />
+        <sound id="vulcan_chain_start" url="vulcan_chain_start.mp3" />
+        <sound id="vulcan_hit" url="vulcan_hit.mp3" />
+        <sound id="vulcan_long_fail" url="vulcan_long_fail.mp3" />
+        <sound id="vulcan_shoot" url="vulcan_shoot.mp3" />
+        <sound id="vulcan_shoot_end" url="vulcan_shoot_end.mp3" />
+        <sound id="vulcan_tank_hit" url="vulcan_tank_hit.mp3" />
+        <sound id="vulcan_turbine_start" url="vulcan_turbine_start.mp3" />
+    </sounds>
+    <colormaps path="data/colormaps">
+        <colormap id="green" file="Green.jpg" />
+        <colormap id="red" file="Red.jpg" />
+        <colormap id="blue" file="Blue.jpg" />
+        <colormap id="black" file="Black.jpg" />
+        <colormap id="white" file="White.jpg" />
+        <colormap id="orange" file="Orange.jpg" />
+        <colormap id="flora" file="Flora.jpg" />
+        <colormap id="marine" file="Marine.jpg" />
+        <colormap id="swamp" file="Swamp.jpg" />
+        <colormap id="forester" file="Forester.jpg" />
+        <colormap id="magma" file="Magma.jpg" />
+        <colormap id="safari" file="Safari.jpg" />
+        <colormap id="invader" file="Invader.jpg" />
+        <colormap id="metallic" file="Metallic.jpg" />
+        <colormap id="lava" file="Lava.jpg" />
+        <colormap id="dragon" file="Dragon.jpg" />
+        <colormap id="lead" file="Lead.jpg" />
+        <colormap id="mary" file="Mary.jpg" />
+        <colormap id="storm" file="Storm.jpg" />
+        <colormap id="carbon" file="Carbon.jpg" />
+        <colormap id="roger" file="Roger.jpg" />
+        <colormap id="fracture" file="Fracture.jpg" />
+        <colormap id="vortex" file="Vortex.jpg" />
+        <colormap id="chainmail" file="Chainmail.jpg" />
+        <colormap id="corrosion" file="Corrosion.jpg" />
+        <colormap id="tundra" file="Tundra.jpg" />
+        <colormap id="alien" file="Alien.jpg" />
+        <colormap id="swash" file="Swash.jpg" />
+        <colormap id="pixel" file="Pixel.jpg" />
+        <colormap id="guerrilla" file="Guerrilla.jpg" />
+        <colormap id="cedar" file="Cedar.jpg" />
+        <colormap id="in_love" file="In-Love.jpg" />
+        <colormap id="desert" file="Desert.jpg" />
+        <colormap id="dirty" file="Dirty.jpg" />
+        <colormap id="jaguar" file="Jaguar.jpg" />
+        <colormap id="savanna" file="Savanna.jpg" />
+        <colormap id="loam" file="Loam.jpg" />
+        <colormap id="sakura" file="Sakura.jpg" />
+        <colormap id="urban" file="Urban.jpg" />
+        <colormap id="atom" file="Atom.jpg" />
+        <colormap id="digital" file="Digital.jpg" />
+        <colormap id="hohloma" file="Hohloma.jpg" />
+        <colormap id="rhino" file="Rhino.jpg" />
+        <colormap id="electra" file="Electra.jpg" />
+        <colormap id="cherry" file="Cherry.jpg" />
+        <colormap id="blacksmith" file="Blacksmith.jpg" />
+        <colormap id="rustle" file="Rustle.jpg" />
+        <colormap id="python" file="Python.jpg" />
+        <colormap id="sandstone" file="Sandstone.jpg" />
+        <colormap id="spark" file="Spark.jpg" />
+        <colormap id="winter" file="Winter.jpg" />
+        <colormap id="needle" file="Needle.jpg" />
+        <colormap id="zeus" file="Zeus.jpg" />
+        <colormap id="hive" file="Hive.jpg" />
+        <colormap id="rock" file="Rock.jpg" />
+        <colormap id="mars" file="Mars.jpg" />
+        <colormap id="prodigi" file="Prodigi.jpg" />
+        <colormap id="graffiti" file="Graffiti.jpg" />
+        <colormap id="irbis" file="Irbis.jpg" />
+        <colormap id="emerald" file="Emerald.jpg" />
+        <colormap id="inferno" file="Inferno.jpg" />
+        <colormap id="nano" file="Nano.jpg" />
+        <colormap id="raccoon" file="Raccoon.jpg" />
+        <colormap id="clay" file="Clay.jpg" />
+        <colormap id="taiga" file="Taiga.jpg" />
+        <colormap id="tiger" file="Tiger.jpg" />
+        <colormap id="jade" file="Jade.jpg" />
+        <colormap id="picasso" file="Picasso.jpg" />
+        <colormap id="lumberjack" file="Lumberjack.jpg" />
+        <colormap id="africa" file="Africa.jpg" />
+        <colormap id="dead" file="special/Dead.jpg" />
+        <colormap id="football_wales" file="football/Football_wales.jpg" />
+        <colormap id="football_korea" file="football/Football_korea.jpg" />
+        <colormap id="football_america" file="football/Football_america.jpg" />
+        <colormap id="football_iran" file="football/Football_iran.jpg" />
+        <colormap id="football_australia" file="football/Football_australia.jpg" />
+        <colormap id="football_netherlands" file="football/Football_netherlands.jpg" />
+        <colormap id="football_saudi" file="football/Football_saudi.jpg" />
+        <colormap id="football_germany" file="football/Football_germany.jpg" />
+        <colormap id="football_senegal" file="football/Football_senegal.jpg" />
+        <colormap id="football_belgium" file="football/Football_belgium.jpg" />
+        <colormap id="football_uruguay" file="football/Football_uruguay.jpg" />
+        <colormap id="football_mexico" file="football/Football_mexico.jpg" />
+        <colormap id="football_brazil" file="football/Football_brazil.jpg" />
+        <colormap id="football_argentina" file="football/Football_argentina.jpg" />
+        <colormap id="football_england" file="football/Football_england.jpg" />
+        <colormap id="football_spain" file="football/Football_spain.jpg" />
+        <colormap id="football_croatia" file="football/Football_croatia.jpg" />
+        <colormap id="football_qatar" file="football/Football_qatar.jpg" />
+        <colormap id="football_canada" file="football/Football_canada.jpg" />
+        <colormap id="football_cameroon" file="football/Football_cameroon.jpg" />
+        <colormap id="football_poland" file="football/Football_poland.jpg" />
+        <colormap id="football_denmark" file="football/Football_denmark.jpg" />
+        <colormap id="football_ecuador" file="football/Football_ecuador.jpg" />
+        <colormap id="football_tunisia" file="football/Football_tunisia.jpg" />
+        <colormap id="football_morocco" file="football/Football_morocco.jpg" />
+        <colormap id="football_ghana" file="football/Football_ghana.jpg" />
+        <colormap id="football_serbia" file="football/Football_serbia.jpg" />
+        <colormap id="football_costarica" file="football/Football_costarica.jpg" />
+        <colormap id="football_portugal" file="football/Football_portugal.jpg" />
+        <colormap id="football_france" file="football/Football_france.jpg" />
+        <colormap id="football_switzerland" file="football/Football_switzerland.jpg" />
+        <colormap id="football_japan" file="football/Football_japan.jpg" />
+        <colormap id="frost" file="special/Frost.jpg" />
+        <colormap id="moonwalker" file="special/Moonwalker.jpg" />
+        <colormap id="eternity" file="special/Eternity.jpg" />
+        <colormap id="acid" file="special/Acid.jpg" />
+        <colormap id="gladiator" file="special/Gladiator.jpg" />
+        <colormap id="impulse" file="special/Impulse.jpg" />
+        <colormap id="veteran" file="special/Veteran.jpg" />
+        <colormap id="star" file="special/Star.jpg" />
+        <colormap id="cobalt" file="special/Cobalt.jpg" />
+        <colormap id="glide" file="special/Glide.jpg" />
+        <colormap id="parkour_master_2022" file="special/Master_of_Parkour_22.jpg" />
+        <colormap id="parkour_master_2023" file="special/Master_of_Parkour_23.jpg" />
+        <colormap id="tracer" file="special/Tracer.jpg" />
+        <colormap id="flame" file="special/Flame.jpg" />
+        <colormap id="alligator" file="special/Alligator.jpg" />
+        <colormap id="microchip" file="special/Microchip.jpg" />
+        <colormap id="engineer" file="special/Engineer.jpg" />
+        <colormap id="helios" file="special/Helios.jpg" />
+        <colormap id="spectator" file="special/Spectator.jpg" />
+        <colormap id="neon" file="special/Neon.jpg" />
+        <colormap id="wiki" file="special/Wiki.jpg" />
+        <colormap id="aramid" file="special/Aramid.jpg" />
+        <colormap id="helper" file="special/Helper.jpg" />
+        <colormap id="best_helper_2022" file="special/Best_helper_2022.jpg" />
+        <colormap id="youtuber" file="special/Youtuber.jpg" />
+        <colormap id="storm_game" file="special/Storm_game.jpg" />
+        <colormap id="devil" file="special/Devil.jpg" />
+        <colormap id="premium" file="special/Premium.jpg" />
+        <colormap id="holiday" file="holiday/Absent.jpg" />
+        <colormap id="holiday_1" file="holiday/21_12_NewYear.jpg" />
+        <colormap id="holiday_2" file="holiday/22_02_ValentinesDay.jpg" />
+        <colormap id="holiday_3" file="holiday/22_02_DefenderOftheFatherlandDay.jpg" />
+        <colormap id="holiday_4" file="holiday/22_04_AprilFoolsDay.jpg" />
+        <colormap id="holiday_5" file="holiday/22_04_CosmonauticsDay.jpg" />
+        <colormap id="holiday_6" file="holiday/22_04_EasterDay.jpg" />
+        <colormap id="holiday_7" file="holiday/22_05_VictoryDay.jpg" />
+        <colormap id="holiday_8" file="holiday/22_07_Birthday.jpg" />
+        <colormap id="holiday_9" file="holiday/22_08_RailwayWorkersDay.jpg" />
+        <colormap id="holiday_10" file="holiday/22_09_TankersDay.jpg" />
+        <colormap id="holiday_11" file="holiday/22_10_Halloween.jpg" />
+        <colormap id="holiday_12" file="holiday/22_11_BlackFriday.jpg" />
+        <colormap id="holiday_13" file="holiday/22_12_NewYear.jpg" />
+        <colormap id="holiday_14" file="holiday/23_02_ValentinesDay.jpg" />
+        <colormap id="holiday_15" file="holiday/23_03_WomensDay.jpg" />
+        <colormap id="holiday_16" file="holiday/23_04_AprilFoolsDay.jpg" />
+        <colormap id="holiday_17" file="holiday/23_04_CosmonauticsDay.jpg" />
+        <colormap id="holiday_18" file="holiday/23_04_EasterDay.jpg" />
+        <colormap id="holiday_19" file="holiday/23_05_MayDay.jpg" />
+        <colormap id="holiday_20" file="holiday/23_07_Birthday.jpg" />
+        <colormap id="flow" file="special/Flow.jpg" frameWidth="256" frameHeight="256" fps="16" numFrames="16" />
+        <colormap id="user_1" file="user/1.jpg" />
+        <colormap id="user_2" file="user/2.jpg" />
+        <colormap id="user_3" file="user/3.jpg" />
+    </colormaps>
+</config>

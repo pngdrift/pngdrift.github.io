@@ -1,0 +1,2810 @@
+{
+    "$schema": "https://protankionline.github.io/protlvk/data/weapons_lighting-schema.json",
+    "effects": [
+        {
+            "effectName": "smoky_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 450,
+                    "color": "0xFCDD76",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFCDD76",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m0_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 450,
+                    "color": "0xFCDD76",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFCDD76",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m1_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 450,
+                    "color": "0xFCDD76",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFCDD76",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m2_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 450,
+                    "color": "0xFCDD76",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFCDD76",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "smoky_m3_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xFFBF00",
+                    "intensity": 0,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m0_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0x00FFFF",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m0_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 400,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 500,
+                    "color": "0x663CFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x663CFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m1_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0x663CFF",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m1_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 400,
+                    "color": "0x663CFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x663CFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 500,
+                    "color": "0x7567E1",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x7567E1",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m2_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0xE0F342",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m2_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 400,
+                    "color": "0xE0F342",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xE0F342",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 500,
+                    "color": "0x6E7DFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x6E7DFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m3_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 300,
+                    "color": "0x00FF00",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "twins_m3_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 400,
+                    "color": "0x00FF00",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FF00",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m0_shot",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0x59C4F9",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x59C4F9",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m0_charge",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 200,
+                    "color": "0x59C4F9",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0x59C4F9",
+                    "intensity": 0.3,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m0_hit",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0x59C4F9",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x59C4F9",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m0_rail",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0x59C4F9",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x59C4F9",
+                    "intensity": 0,
+                    "time": 1800
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m1_shot",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0x50A9FF",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x50A9FF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m1_charge",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 200,
+                    "color": "0x50A9FF",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0x50A9FF",
+                    "intensity": 0.3,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m1_hit",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0x50A9FF",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x50A9FF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m1_rail",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0x50A9FF",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x50A9FF",
+                    "intensity": 0,
+                    "time": 1800
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m2_shot",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xCF7CF9",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xCF7CF9",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m2_charge",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 200,
+                    "color": "0xCF7CF9",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xCF7CF9",
+                    "intensity": 0.3,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m2_hit",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xCF7CF9",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xCF7CF9",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m2_rail",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xCF7CF9",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xCF7CF9",
+                    "intensity": 0,
+                    "time": 1800
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m3_shot",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFFD059",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFD059",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m3_charge",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 200,
+                    "color": "0xFFD059",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFFD059",
+                    "intensity": 0.3,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m3_hit",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFFD059",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFD059",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_m3_rail",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xFFD059",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFD059",
+                    "intensity": 0,
+                    "time": 1800
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_xt_shot",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFFFFFF",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFFFFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_xt_charge",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 200,
+                    "color": "0xFFFFFF",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFFFFFF",
+                    "intensity": 0.3,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_xt_hit",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFFFFFF",
+                    "intensity": 0.7,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFFFFF",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "railgun_xt_rail",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xFFFFFF",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFFFFF",
+                    "intensity": 0,
+                    "time": 1800
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m0_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 400
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 600
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 800
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m1_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 400
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 600
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 800
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m2_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 400
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 600
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 800
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "freeze_m3_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 400
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 1000,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 600
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1500,
+                    "color": "0x00FFFF",
+                    "intensity": 0.3,
+                    "time": 800
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m0_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 100
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 300
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m1_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 100
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 300
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m2_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 100
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 300
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "flamethrower_m3_shot",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 100
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1500,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 150,
+                    "attenuationEnd": 800,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 300
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 1000,
+                    "color": "0xFF8800",
+                    "intensity": 1,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m0_ricochet",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 400,
+                    "color": "0xFFA900",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 200,
+                    "color": "0xFFA900",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 500,
+                    "color": "0xFFA900",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFA900",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m0_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 350,
+                    "color": "0xFFA900",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m0_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFFA900",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFFA900",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m1_ricochet",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 400,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 200,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 500,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m1_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 350,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m1_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m2_ricochet",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 400,
+                    "color": "0xFF9700",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 200,
+                    "color": "0xFF9700",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 500,
+                    "color": "0xFF9700",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF9700",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m2_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 350,
+                    "color": "0xFF9700",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m2_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFF9700",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFF9700",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m3_ricochet",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 400,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 200,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 500,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m3_shot",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 350,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                }
+            ]
+        },
+        {
+            "effectName": "ricochet_m3_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFF7518",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 600,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xFF7518",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 250
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m0_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0.8,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 700
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xFF7518",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 250
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m1_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0.8,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 700
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xFF7518",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 250
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m2_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0.8,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 700
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 500,
+                    "color": "0xFF7518",
+                    "intensity": 0.9,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 250
+                }
+            ]
+        },
+        {
+            "effectName": "thunder_m3_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0.8,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 800,
+                    "color": "0xFF7518",
+                    "intensity": 0,
+                    "time": 700
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_enemyStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFDE910",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_enemyLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFDE910",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_start",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x41BEEB",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_loop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_friendStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x00FFFF",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_friendLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_enemyBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFDE910",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m0_friendBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_enemyStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFDE910",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_enemyLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFDE910",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFDE910",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_start",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x41BEEB",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_loop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_friendStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x24B2E1",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x24B2E1",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_friendLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x24B2E1",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x24B2E1",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x24B2E1",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_enemyBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xF0D327",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xF0D327",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xF0D327",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m1_friendBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x24B2E1",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x24B2E1",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x24B2E1",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_enemyStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFB81B",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFFB81B",
+                    "intensity": 0.1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_enemyLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFFB81B",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFFB81B",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFFB81B",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_start",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x41BEEB",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_loop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_friendStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x00FFFF",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x00FFFF",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_friendLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_enemyBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFFCA00",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFFCA00",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFFCA00",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m2_friendBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x7DF9FF",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_enemyStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF564D",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFF564D",
+                    "intensity": 0.1,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_enemyLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFF564D",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFF564D",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFF564D",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_start",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x41BEEB",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_loop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x41BEEB",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x41BEEB",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_friendStart",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0x32F09D",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x32F09D",
+                    "intensity": 0.2,
+                    "time": 200
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_friendLoop",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x32F09D",
+                    "intensity": 0.3,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0x32F09D",
+                    "intensity": 0.2,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0x32F09D",
+                    "intensity": 0.3,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_enemyBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFF5D4D",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xFF5D4D",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xFF5D4D",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "isida_m3_friendBeam",
+            "items": [
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xBCF09D",
+                    "intensity": 0.2,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 600,
+                    "color": "0xBCF09D",
+                    "intensity": 0.15,
+                    "time": 200
+                },
+                {
+                    "attenuationBegin": 250,
+                    "attenuationEnd": 700,
+                    "color": "0xBCF09D",
+                    "intensity": 0.2,
+                    "time": 400
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xF0AC2F",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xF0AC2F",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m0_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 700,
+                    "color": "0xF0AC2F",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xF0AC2F",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFFAF00",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFAF00",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m1_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 700,
+                    "color": "0xFFAF00",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFFAF00",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF7400",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7400",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m2_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 700,
+                    "color": "0xFF7400",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF7400",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF1E1E",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF1E1E",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shaft_m3_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 300,
+                    "attenuationEnd": 700,
+                    "color": "0xFF1E1E",
+                    "intensity": 0.5,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF1E1E",
+                    "intensity": 0,
+                    "time": 600
+                }
+            ]
+        },
+        {
+            "effectName": "shotgun_m0_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 700,
+                    "color": "0xFABA00",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFABA00",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "shotgun_m1_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 700,
+                    "color": "0xFABA00",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFABA00",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "shotgun_m2_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 700,
+                    "color": "0xFABA00",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFABA00",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "shotgun_m3_muzzle",
+            "items": [
+                {
+                    "attenuationBegin": 50,
+                    "attenuationEnd": 700,
+                    "color": "0xFABA00",
+                    "intensity": 1,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFABA00",
+                    "intensity": 0,
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m0_loopFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m0_startFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m1_loopFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m1_startFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m2_loopFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m2_startFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m3_loopFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "machinegun_m3_startFire",
+            "items": [
+                {
+                    "attenuationBegin": 200,
+                    "attenuationEnd": 600,
+                    "color": "0xFF8800",
+                    "intensity": 0.6,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xFF8800",
+                    "intensity": 0,
+                    "time": 75
+                }
+            ]
+        },
+        {
+            "effectName": "tank_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xCCA538",
+                    "intensity": 0,
+                    "time": 0
+                },
+                {
+                    "attenuationBegin": 500,
+                    "attenuationEnd": 1500,
+                    "color": "0xCCA538",
+                    "intensity": 1.2,
+                    "time": 100
+                },
+                {
+                    "attenuationBegin": 1,
+                    "attenuationEnd": 2,
+                    "color": "0xCCA538",
+                    "intensity": 0,
+                    "time": 1200
+                }
+            ]
+        },
+        {
+            "effectName": "tail_explosion",
+            "items": [
+                {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 1000,
+                    "color": "0xFFA500",
+                    "intensity": 1,
+                    "time": 0
+                  },
+                  {
+                    "attenuationBegin": 100,
+                    "attenuationEnd": 400,
+                    "color": "0xFFA500",
+                    "intensity": 0,
+                    "time": 1000
+                  }
+            ]
+        }
+    ]
+}
