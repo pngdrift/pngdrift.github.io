@@ -9,7 +9,7 @@
                     "type": "string"
                 },
                 "modification": {
-                    "type": "integer"
+                    "type": "string"
                 }
             },
             "required": ["id", "modification"]

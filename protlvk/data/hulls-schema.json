@@ -23,7 +23,7 @@
                         "type": "string"
                     },
                     "modification": {
-                        "type": "integer"
+                        "type": "string"
                     },
                     "physics": {
                         "type": "object",
