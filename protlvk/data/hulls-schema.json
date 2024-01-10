@@ -8,11 +8,11 @@
                 "id": {
                     "type": "string"
                 },
-                "modification": {
-                    "type": "integer"
+                "skin": {
+                    "type": "string"
                 }
             },
-            "required": ["id", "modification"]
+            "required": ["id", "skin"]
         },
         "data": {
             "type": "array",
@@ -22,7 +22,7 @@
                     "id": {
                         "type": "string"
                     },
-                    "modification": {
+                    "skin": {
                         "type": "string"
                     },
                     "physics": {
@@ -70,7 +70,7 @@
                         "additionalProperties": false
                     }
                 },
-                "required": ["id", "modification", "physics"]
+                "required": ["id", "skin", "physics"]
             }
         }
     },
