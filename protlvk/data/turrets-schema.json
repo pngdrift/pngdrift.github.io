@@ -8,11 +8,11 @@
                 "id": {
                     "type": "string"
                 },
-                "modification": {
+                "skin": {
                     "type": "string"
                 }
             },
-            "required": ["id", "modification"]
+            "required": ["id", "skin"]
         },
         "data": {
             "type": "array",
@@ -22,14 +22,14 @@
                     "id": {
                         "type": "string"
                     },
-                    "modification": {
-                        "type": "integer"
+                    "skin": {
+                        "type": "string"
                     },
                     "defaultWeapon": {
                         "type": "string"
                     }
                 },
-                "required": ["id", "modification", "defaultWeapon"],
+                "required": ["id", "skin", "defaultWeapon"],
                 "additionalProperties": false
             }
         }
